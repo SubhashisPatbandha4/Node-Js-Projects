@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  /* background-color: rgb(217, 244, 198); */
+  font-family: "Roboto", sans-serif;
+}
+section.chat_section {
+  width: 100%;
+
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  /* box-shadow: ; */
+}
+.brand {
+  padding: 20px;
+  background-color: rgb(120, 191, 241);
+  display: flex;
+  align-items: center;
+}
+.brand h1 {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+}
+.brand span {
+  text-transform: uppercase;
+  font-family: "Lucida Sans";
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: rgb(29, 237, 6);
+  text-align: center;
+  align-items: center;
+  padding-top: 0.8rem;
+
+  /* float: right; */
+}
+.message_area {
+  height: 35.5rem;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  scrollbar-width: thin;
+
+  padding-top: 40px;
+}
+textarea {
+  width: 100%;
+  border: none;
+  padding: 20px;
+  font-size: 16px;
+  outline: none;
+  background-color: rgb(184, 225, 235);
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-start-start-radius: 50px;
+  border-start-end-radius: 50px;
+}
+.message {
+  padding: 20px;
+  border-radius: 4px;
+  margin-bottom: 40px;
+  max-width: 300px;
+  position: relative;
+  word-wrap: break-word;
+}
+.incoming {
+  background-color: rgb(70, 166, 245);
+  color: rgb(255, 255, 255);
+}
+.outgoing {
+  background-color: rgb(205, 222, 236);
+  color: rgb(0, 0, 0);
+  margin-left: auto;
+}
+.message h4 {
+  position:absolute;
+  max-width: fit-content;
+  /* background-color: yellow; */
+  word-wrap: break-word;
+  top: -20px;
+  left: 0;
+  color: rgb(139, 66, 233);
+  font-size: 14px;
+  /* float: right; */
+}
