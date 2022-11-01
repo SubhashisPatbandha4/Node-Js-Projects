@@ -17,4 +17,4 @@ io.on("connection", (socket) => {
   });
 });
 
-http.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`));
+http.listen(PORT, () => console.log(`Example app listening on port https://localhost:${PORT}`));

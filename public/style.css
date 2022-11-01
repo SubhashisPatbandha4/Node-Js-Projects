@@ -8,8 +8,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100%;
-  /* background-color: rgb(217, 244, 198); */
+  height: 100vh;
+  /* background-color: rgb(96, 186, 31); */
   font-family: "Roboto", sans-serif;
 }
 section.chat_section {
@@ -17,6 +17,7 @@ section.chat_section {
 
   height: 100%;
   background-color: rgb(255, 255, 255);
+  position: relative;
   /* box-shadow: ; */
 }
 .brand {
@@ -96,4 +97,11 @@ textarea {
   color: rgb(139, 66, 233);
   font-size: 14px;
   /* float: right; */
+}
+.textbox{
+  /* background-color: red; */
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  width:100%;
 }
